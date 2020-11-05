@@ -1,0 +1,23 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1012,
+       "width": 933,
+       "x": 970,
+       "y": 86
+    },
+    //"name": "03:39 Education - KanbanFlow - Google Chrome",
+    "percent": 1,
+    "swallows": [
+       {
+       // "class": "^Google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "title": "^03\\:39\\ Education\\ \\-\\ KanbanFlow\\ \\-\\ Google\\ Chrome$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}

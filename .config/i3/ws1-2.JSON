@@ -1,0 +1,42 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "layout": "splith",
+    "percent": 0.8,
+    "type": "con",
+    "nodes": [
+	{
+	    "name": "Google Chrome",
+	    "type": "con",
+	    "swallows": [
+		{
+		    "class": "^Google\\-chrome$",
+		    "instance": "^google\\-chrome$",
+		 }
+	    ]
+	}
+	    
+    ]
+}
+
+{
+    "layout": "splith",
+    "border": "pixel",
+    "current_border_width": 3,
+    "percent": 0.2,
+    "type": "con",
+    "node": [
+	{
+	    "name": "declo@archlinux:~",
+	    "type": "con",
+	    "swallows": [
+		{
+		    "class": "^UXTerm$",
+		    "instance": "^xterm$",
+		}
+	    ]
+	}
+    ]
+}
+

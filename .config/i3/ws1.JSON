@@ -1,0 +1,59 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    //"geometry": {
+    //   "height": 915,
+     //  "width": 1886,
+      /// "x": 17,
+       //"y": 51
+  //  },
+    "name": "Google Chrome",
+    "percent": 0.8,
+    "swallows": [
+       {
+	   "class": "^Google\\-chrome$",
+	   //"class": "^UXTerm$",
+       "instance": "^google\\-chrome$",
+       "title": "^",
+       //"transient_for": "^$",
+       "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splith split container with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.2,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            //"geometry": {
+            //   "height": 316,
+            //   "width": 484,
+            //   "x": 0,
+            //   "y": 0
+            //},
+            "name": "declo@archlinux:~/Downloads",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^UXTerm$",
+                "instance": "^down$",
+                "title": "^",
+                //"transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

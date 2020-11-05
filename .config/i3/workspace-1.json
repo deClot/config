@@ -1,0 +1,47 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1012,
+       "width": 933,
+       "x": 17,
+       "y": 51
+    },
+    "name": "Tips to protect your online privacy | Mozilla Support - Google Chrome",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^google\\-chrome$",
+       // "title": "^Tips\\ to\\ protect\\ your\\ online\\ privacy\\ \\|\\ Mozilla\\ Support\\ \\-\\ Google\\ Chrome$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 862,
+       "width": 1886,
+       "x": 17,
+       "y": 51
+    },
+    "name": "Redshift (Русский) - ArchWiki - Google Chrome",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^google\\-chrome$",
+       // "title": "^Redshift\\ \\(Русский\\)\\ \\-\\ ArchWiki\\ \\-\\ Google\\ Chrome$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
